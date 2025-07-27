@@ -35,26 +35,6 @@ It includes a **REST API** built with **Spring Boot** (Java) and a **React** fro
 
 ---
 
-## Project Structure
-
-
-PetApi/
-│
-├── petapi/ # Spring Boot backend
-│ ├── src/main/java # Source code (Controller, Service, Repository, Entity)
-│ ├── src/main/resources/application.properties
-│ └── pom.xml
-│
-├── frontend/ # React frontend
-│ ├── src/App.jsx
-│ ├── index.html
-│ └── package.json
-│
-└── docker-compose.yml # PostgreSQL + pgAdmin
-
-
----
-
 ## Getting Started
 
 ### 1. Run Database with Docker
