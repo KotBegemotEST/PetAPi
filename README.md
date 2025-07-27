@@ -57,13 +57,12 @@ npm run dev
 
 Frontend will run at: http://localhost:5173
 
-API Endpoints
-Base URL: http://localhost:8080/pets
+## API Endpoints
 
-Method	Endpoint	Description
-GET	/pets	Get all pets
-GET	/pets/{id}	Get pet by ID
-POST	/pets	Create new pet
-PUT	/pets/{id}	Update pet by ID
-DELETE	/pets/{id}	Delete pet by ID
+**Base URL:** `http://localhost:8080/pets`
 
+- **GET** `/pets` — Get all pets
+- **GET** `/pets/{id}` — Get pet by ID
+- **POST** `/pets` — Create new pet
+- **PUT** `/pets/{id}` — Update pet by ID
+- **DELETE** `/pets/{id}` — Delete pet by ID
